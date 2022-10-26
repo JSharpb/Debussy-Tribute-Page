@@ -9,7 +9,7 @@ html {
 .backing {
   box-sizing: border-box;
   width: 100%;
-  min-width: 300px;
+  min-width: 320px;
   margin: 1rem 0 1rem;
   padding: 1rem;
   background-color: #f0eeee;
@@ -23,8 +23,11 @@ h1 {
 }
 
 .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
   width: 100%;
-  max-width: 1440px;
   margin: auto;
   padding: 1.5rem 0 1.2rem;
   background-color: #ffffff;
@@ -35,19 +38,24 @@ h1 {
   margin: auto;
 }
 
+.incard {
+  display: block;
+}
+
 #image {
   aspect-ratio: auto;
   border-radius: 2px;
   height: auto;
-  max-width: 100%;
-  width: 30%;
+  max-width: 400px;
+  width: 40%;
 }
 
 #img-caption {
+  width: 40%;
+  max-width: 400px;
   text-align: center;
-  font-size: max(min(200%, 2.1vw), 12px);
+  font-size: max(min(3vw, 32px), 12px);
   font-style: italic;
-  margin-top: 0.5em;
 }
 
 .thinner {
