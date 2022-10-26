@@ -7,9 +7,10 @@ html {
 }
 
 .backing {
-  width: calc(100% - 2rem);
+  box-sizing: border-box;
+  width: 100%;
   min-width: 300px;
-  margin: 2rem 0 2rem;
+  margin: 1rem 0 1rem;
   padding: 1rem;
   background-color: #f0eeee;
   border-radius: 5px;
@@ -23,10 +24,10 @@ h1 {
 
 .card {
   width: 100%;
+  max-width: 1440px;
   margin: auto;
-  padding: 1.2rem 0;
+  padding: 1.5rem 0 1.2rem;
   background-color: #ffffff;
-  border-radius: px;
 }
 
 .card > * {
@@ -44,7 +45,7 @@ h1 {
 
 #img-caption {
   text-align: center;
-  font-size: max(2.5vw, 12px);
+  font-size: max(min(200%, 2.1vw), 12px);
   font-style: italic;
   margin-top: 0.5em;
 }
