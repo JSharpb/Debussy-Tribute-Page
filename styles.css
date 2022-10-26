@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');
+
+html {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.backing {
+  width: calc(100% - 2rem);
+  min-width: 300px;
+  margin: 2rem 0 2rem;
+  padding: 1rem;
+  background-color: #f0eeee;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 2.5rem;
+}
+
+.card {
+  width: 100%;
+  margin: auto;
+  padding: 1.2rem 0;
+  background-color: #ffffff;
+  border-radius: px;
+}
+
+.card > * {
+  display: block;
+  margin: auto;
+}
+
+#image {
+  aspect-ratio: auto;
+  border-radius: 2px;
+  height: auto;
+  max-width: 100%;
+  width: 30%;
+}
+
+#img-caption {
+  text-align: center;
+  font-size: max(2.5vw, 12px);
+  font-style: italic;
+  margin-top: 0.5em;
+}
+
+.thinner {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 3rem auto;
+}
+
+ul {
+  margin-left: -1rem;
+}
+
+li {
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+  clear: right;
+}
+
+.right-aligned {
+  float: right;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.quote {
+  font-style: italic;
+  font-weight: 300;
+  margin: 4rem auto;
+  line-height: 1.5rem;
+}
+
+a:last-of-type {
+  white-space: nowrap;
+}
